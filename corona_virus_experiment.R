@@ -10,6 +10,7 @@ n_madrid <- 6550000
 cases_canarias <- 12
 cases_madrid <- 109
 
+# We are supposing the corona virus test is taked by all of the population
 p_canarias <- rbeta(n_canarias, cases_canarias,
                     n_canarias - cases_canarias)
 
